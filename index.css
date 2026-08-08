@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-radial-dark {
+    background: radial-gradient(circle at 50% 0%, #0B6E4F 0%, #111827 55%, #0A0A0A 100%);
+  }
+
+  .bg-card-gradient {
+    background: linear-gradient(135deg, rgba(11, 110, 79, 0.22) 0%, rgba(17, 24, 39, 0.95) 100%);
+  }
+
+  .bg-card-hover {
+    background: linear-gradient(135deg, rgba(11, 110, 79, 0.35) 0%, rgba(17, 24, 39, 0.98) 100%);
+  }
+
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #FFF066 0%, #FFD700 50%, #D4AF37 100%);
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #FFF9B8 0%, #FFD700 50%, #E6C200 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .border-gold-glow {
+    border-color: rgba(255, 215, 0, 0.45);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  }
+
+  .hover-gold-glow:hover {
+    border-color: rgba(255, 215, 0, 0.85);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.35);
+  }
+
+  .gold-glow {
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.25);
+  }
+
+  .emerald-glow {
+    box-shadow: 0 0 35px rgba(16, 185, 129, 0.25);
+  }
+
+  .deep-green-glow {
+    box-shadow: 0 0 35px rgba(11, 110, 79, 0.4);
+  }
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0B6E4F;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10B981;
+}
+
+/* Base selection color - pure gold on dark */
+::selection {
+  background-color: #FFD700;
+  color: #0A0A0A;
+}
+
+
