@@ -1,0 +1,6 @@
+{
+  "name": "IS AI Directory Hub",
+  "description": "Discover free AI tools and Islamic resources in one place.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
